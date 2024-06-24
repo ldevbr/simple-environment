@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-checkbox-1:checked + span {
+    @apply bg-gray-900;
+}
+
+.custom-checkbox-1:checked + span svg {
+    @apply block;
+}
+
+.custom-radio-1:checked + span {
+    @apply bg-gray-100;
+    @apply border;
+    @apply border-gray-600;
+}
+
+.custom-radio-1:checked + span svg {
+    @apply block;
+}
+
+.custom-inline-radio-1:checked + span {
+    @apply bg-gray-100;
+    @apply border;
+    @apply border-gray-600;
+}
+
+.custom-inline-radio-1:checked + span svg {
+    @apply block;
+}
